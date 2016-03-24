@@ -49,26 +49,44 @@
           <img src="img/ionic-logo.png" class="logo" width="296" height="331">
           <h4>Building Hybrid Apps with AngularJS and Ionic</h4>
         </section>
-
-
+        
+<section>
+<pre class="javascript">
+  <code class="hljs">
+  {
+    name: 'Nicolas Molina Monroy',
+    twitter: '@nicobytes',
+    github: 'https://github.com/nicobytes'
+    jobs: [
+        'Hybrid App Developer',
+        'Front-End Developer'    
+    ],
+    relationship: lea_verou.relationship == 'single' ? 'single' : 'YOLO',
+    organizer: [
+        'http://www.meetup.com/es/Hybrid-Apps-Colombia',
+        'http://www.meetup.com/es/Django-Bogota',
+        'http://www.meetup.com/es/Meteor-Bogota'    
+    ]
+  }
+</code>
+</pre>
+<img src="img/me.jpg"   style="position: absolute; top:-80px; right:0px; max-width: 280px;">
+</section>
+        
+         
         <section>
-          <ul style="position: absolute; top:0; left:0px; max-width: 550px;">
-            <li>Nicolas Molina Monroy</li>
-            <li>Hybrid App Developer and Front-End Developer</li>
-            <li><a href="https://twitter.com/nicobytes">@nicobytes</a></li>
-            <li><a href="https://github.com/nicobytes">github.com/nicobtyes</a></li>
-          </ul>
-          <img src="img/me.jpg" style="position: absolute; top:0; left:650px; max-width: 260px; max-height: 260px; border-radius: 30px">
+          <div style="width: 100%; height:500px; display:block; overflow:hidden"></div>
+          <img src="img/meetups/1.jpg" width="340" style="position: absolute; top:-10px; right:-52px;z-index:2">
+          <img src="img/meetups/2.jpg" width="396" style="position: absolute; top:0px; left:0px;">
+          <img src="img/meetups/3.jpeg" width="426" style="position: absolute; bottom:84px; left:390px;z-index:2">
+          <img src="img/meetups/4.jpeg" width="396" style="position: absolute; bottom:-89px; left:-50px;">
+          <img src="img/meetups/5.jpg" width="396" style="position: absolute; top:170px; left:40px;">
+          <img src="img/meetups/6.jpg" width="396" style="position: absolute; top:9px; left:340px;">
+          <img src="img/meetups/7.jpg" width="396" style="position: absolute; bottom:-98px; right:-46px;">
+          <img src="img/meetups/8.jpg" width="396" style="position: absolute; top:224px; right:-90px;">
+          <img src="img/meetups/9.jpg" width="396" style="position: absolute; bottom:-109px; left:340px; z-index: -1;">
         </section>
 
-         <section>
-          <h3>Organizer of</h3>
-          <ul style="list-style:none;">
-            <li><img src="img/meetup1.jpeg" class="logo" width="296"></li>
-            <li><img src="img/meetup2.jpeg" class="logo" width="296"></li>
-            <li><img src="img/meetup3.png" class="logo" width="296"></li>
-          </ul>
-        </section>
 
         <section>
           <h2>Overview</h2>
@@ -314,7 +332,7 @@
         <section data-background="white">
           <img src="img/nerds.png">
           <h2>Built by nerds (like you)</h2>
-          <p>Built and maintained by developers and designers passionate about web technologies. I</p>
+          <p>Built and maintained by developers and designers passionate about web technologies.</p>
         </section>
 
 
@@ -330,8 +348,8 @@
         </section>
 
 
-        <section data-background="img/continuity.png">
-        </section>
+        <!--<section data-background="img/continuity.png">
+        </section>-->
 
         <section>
           <blockquote>UI Component Overview</blockquote>
@@ -438,75 +456,6 @@
 
         <section>
           <div class="col preview demo-frame">
-            <iframe src="demos/sidemenu/index.html"></iframe>
-          </div>
-          <div class="col code">
-            <h2>Side Menu</h2>
-          <pre><code data-trim contenteditable class="xml">
-<ion-side-menus>
-
-  <ion-side-menu-content>
-
-    <ion-nav-view name="menuContent"></ion-nav-view>
-
-  </ion-side-menu-content>
-
-  <ion-side-menu side="left">
-
-    <ion-header-bar class="bar-assertive">
-      <h1 class="title">Left Menu</h1>
-    </ion-header-bar>
-
-    <ion-content>
-      ...
-    </ion-content>
-
-  </ion-side-menu>
-
-</ion-side-menus>
-</code></pre>
-          </div>
-        </section>
-
-        <section>
-          <div class="col preview demo-frame">
-            <iframe src="demos/slidebox/index.html"></iframe>
-          </div>
-          <div class="col code">
-            <h2>Slide Box</h2>
-          <pre><code data-trim contenteditable class="xml">
-<ion-slide-box on-slide-changed="change(index)">
-  <ion-slide>
-    Slide 1
-  </ion-slide>
-  <ion-slide>
-    Slide 2
-  </ion-slide>
-  <ion-slide>
-    Slide 3
-  </ion-slide>
-</ion-slide-box></code></pre>
-          </div>
-        </section>
-
-         <section>
-          <div class="col preview demo-frame">
-            <iframe src="demos/pull-to-refresh/index.html"></iframe>
-          </div>
-          <div class="col code">
-            <h2>Pull to Refresh</h2>
-          <pre><code data-trim contenteditable class="xml">
-<ion-refresher on-refresh="doRefresh()"
-               pulling-text="Pull to refresh..."
-               refreshing-text="Refreshing!"
-               refreshing-icon="ion-loading-c">
-</ion-refresher></code></pre>
-          </div>
-        </section>
-
-
-        <section>
-          <div class="col preview demo-frame">
             <iframe isrc="demos/components/index.html"></iframe>
           </div>
           <div class="col code">
@@ -532,8 +481,53 @@
 
         <section>
           <h3 style="margin:0; font-size:60px;">ShowCase</h3>
-          <a href="http://showcase.ionicframework.com/"></a>
+          <a href="http://showcase.ionicframework.com/">http://showcase.ionicframework.com/</a>
           <img src="img/showcase.png" alt="showcase">
+        </section>
+        
+        <section>
+          <h3 style="margin:0; font-size:60px;">IBM Mobile</h3>
+          <a href="http://showcase.ionicframework.com/">http://www.ibm.com/mobilefirst/</a>
+          <img src="img/showcase/ibm.png" alt="showcase">
+        </section>
+        
+        <section>
+          <h3 style="margin:0; font-size:60px;">Apps</h3>
+          <div class="apps">
+            <img src="img/showcase/just.jpeg" width="230" alt="showcase">
+            <img src="img/showcase/song.jpg" width="230" alt="showcase">
+            <img src="img/showcase/sworkit.png" width="230" alt="showcase">
+            <img src="img/showcase/unnamed.jpg" width="230" alt="showcase">
+          </div>
+        </section>
+        
+        <section>
+          <h3 style="margin:0; font-size:60px;">Apps</h3>
+          <div class="apps">
+            <img src="img/showcase/just.jpeg" width="230" alt="showcase">
+            <img src="img/showcase/song.jpg" width="230" alt="showcase">
+            <img src="img/showcase/sworkit.png" width="230" alt="showcase">
+            <img src="img/showcase/unnamed.jpg" width="230" alt="showcase">
+          </div>
+        </section>
+        
+        
+        <section data-background="white">
+          <img src="img/showcase/logo.png" alt="showcase">
+        </section>
+        
+        <section  data-background="white">
+          <img src="img/showcase/logo.png" width="80" alt="showcase">
+          <div class="apps">
+            <img src="img/showcase/screen1.png" width="230" alt="showcase">
+            <img src="img/showcase/screen2.png" width="230" alt="showcase">
+            <img src="img/showcase/screen3.png" width="230" alt="showcase">
+            <img src="img/showcase/screen4.png" width="230" alt="showcase">
+          </div>
+        </section>
+        
+        <section data-background="white">
+          <img src="img/showcase/sponzorme.png" alt="showcase">
         </section>
 
         <section>
@@ -554,34 +548,11 @@
           <h6 style="color:#32b83b;font-family:Monaco;">May the demo gods be with us</h6>
         </section>
 
-        <section data-background="img/chromium.jpg">
-          <h3 style="margin:0; font-size:60px;">Modern</h3>
-          <h2 style=" font-size:80px;">Chromium!</h2>
-          <p>Chromium for Android <strong>WebViews</strong></p>
-          <p><strong>Upgrade Android</strong> 4.1+ and above</p>
-          <p>Same hardware, <strong>modern software</strong></p>
-          <p><strong>Amazing performance</strong> improvements</p>
-        </section>
-
         <section data-background="img/ng-cordova.png">
         </section>
 
-
         <section data-background="img/ionicio.png">
         </section>
-
-
-        <section data-background="img/ionic-view.png">
-        </section>
-
-
-        <section data-background="img/ionic-creator.png">
-        </section>
-
-
-        <section data-background="img/market.png">
-        </section>
-
 
         <section data-background="img/community.jpg">
         </section>
@@ -590,13 +561,11 @@
         <section data-background="img/adoption.png">
           <h2 class="ionic-blue">Ionic's Adoption</h2>
           <ul class="ionic-blue">
-            <li>16,000+ Github Stars</li>
+            <li>22,900+ Github Stars</li>
             <li>Top 40 most starred Github repos</li>
             <li>Consistently Top 10 trending JS Github repos</li>
             <li>Ionic CLI 95,000 downloads/month</li>
             <li>600,000+ Ionic apps have been started from our CLI</li>
-            <li>Released Alpha: November 2013</li>
-            <li>Released Stable: May 2015</li>
           </ul>
         </section>
 
@@ -653,8 +622,8 @@
             </a>
           </h3>
           <h4>
-            <a href="http://nicobytes.github.io/ionic-present">
-              nicobytes.github.io/ionic-present
+            <a href="http://nicobytes.github.io/ionicslides">
+              nicobytes.github.io/ionic-slides
             </a>
           </h4>
         </section>
